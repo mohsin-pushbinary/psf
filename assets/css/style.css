@@ -152,7 +152,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   margin-left: 15px;
 }
-
+@media(max-width:480px){
+  .contact-info {
+    display: none !important;
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -558,6 +562,21 @@ section {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
+@media(max-width:768px){
+  .section-title h2{
+  font-size: 16px;
+}
+}
+@media(max-width:768px){
+  .section-title h2::before{
+    display: none !important;
+}
+}
+@media(max-width:768px){
+  .section-title h2::after{
+    display: none !important;
+}
+}
 .section-title h2::before {
   content: "";
   width: 120px;
@@ -911,7 +930,7 @@ section {
   
 }
   .commercial-finan img{
-    width: 100px;
+    width: 210px;
     border-radius: 10px;
   }
     
